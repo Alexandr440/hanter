@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Exo 2.0 Semibold Italic';
+    src: url('Exo20-SemiBoldItalic.eot');
+    src: url('Exo20-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('Exo20-SemiBoldItalic.woff') format('woff'),
+    url('Exo20-SemiBoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+@font-face {
+    font-family: 'Exo 2.0 Bold';
+    src: url('../fonts/Exo20-Bold.eot');
+    src: url('../fonts/Exo20-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Exo20-Bold.woff') format('woff'),
+    url('../fonts/Exo20-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+@font-face {
+    font-family: 'Exo 2.0 Light';
+    src: url('../fonts/Exo20-Light.eot');
+    src: url('../fonts/Exo20-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Exo20-Light.woff') format('woff'),
+    url('../fonts/Exo20-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@mixin exol {
+    font-family: 'Exo 2.0 Light';    
+}
+@mixin exob {
+    font-family: 'Exo 2.0 Bold';
+    
+}
